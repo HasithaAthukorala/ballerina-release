@@ -46,9 +46,7 @@
             "is_extended_library_module": false,
             "build_action_file": "build-timestamped-master",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-random",
@@ -164,9 +162,7 @@
             "is_extended_library_module": false,
             "build_action_file": "build-master",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-log",
@@ -218,9 +214,7 @@
             "is_extended_library_module": false,
             "build_action_file": "build-timestamped-master",
             "send_notification": true,
-            "dependents": [
-                "module-ballerina-grpc"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-task",
@@ -250,9 +244,7 @@
             "is_extended_library_module": false,
             "build_action_file": "build-timestamped-master",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-cache",
@@ -298,9 +290,7 @@
             "is_extended_library_module": false,
             "build_action_file": "build-timestamped-master",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-mime",
@@ -329,9 +319,7 @@
             "is_extended_library_module": false,
             "build_action_file": "build-timestamped-master",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-udp",
@@ -344,9 +332,7 @@
             "is_extended_library_module": false,
             "build_action_file": "build-timestamped-master",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-uuid",
@@ -389,9 +375,7 @@
             "is_extended_library_module": false,
             "build_action_file": "build-timestamped-master",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-jwt",
@@ -459,9 +443,7 @@
             "is_extended_library_module": false,
             "build_action_file": "build-master",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerinax-azure.functions",
@@ -474,9 +456,7 @@
             "is_extended_library_module": false,
             "build_action_file": "build-master",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-graphql",
@@ -520,9 +500,7 @@
             "is_extended_library_module": false,
             "build_action_file": "build-timestamped-master",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerinai-transaction",
@@ -552,9 +530,7 @@
             "is_extended_library_module": false,
             "build_action_file": "build-timestamped-master",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-websub",
@@ -567,9 +543,7 @@
             "is_extended_library_module": false,
             "build_action_file": "build-timestamped-master",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-websubhub",
@@ -582,9 +556,7 @@
             "is_extended_library_module": false,
             "build_action_file": "build-timestamped-master",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-c2c",
@@ -597,9 +569,7 @@
             "is_extended_library_module": false,
             "build_action_file": "build-timestamped-master",
             "send_notification": true,
-            "dependents": [
-                "ballerina-distribution"
-            ]
+            "dependents": []
         },
         {
             "name": "module-ballerina-sql",
@@ -617,22 +587,8 @@
                 "module-ballerinax-mssql",
                 "module-ballerinax-mysql",
                 "module-ballerinax-oracledb",
-                "module-ballerinax-postgresql",
-                "ballerina-distribution"
+                "module-ballerinax-postgresql"
             ]
-        },
-        {
-            "name": "ballerina-distribution",
-            "level": 8,
-            "group_id": "io.ballerina.stdlib",
-            "artifact_id": "distribution-ballerina",
-            "version_key": "stdlibDistributionVersion",
-            "default_branch": "master",
-            "auto_merge": true,
-            "is_extended_library_module": false,
-            "build_action_file": "main",
-            "send_notification": true,
-            "dependents": []
         }
     ],
     "extended_library": [
